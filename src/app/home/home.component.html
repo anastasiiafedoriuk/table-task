@@ -1,0 +1,7 @@
+<section *ngIf="data$ | async as data"
+         class="home">
+  <mat-card class="home__card">
+    <app-table [data]="data"></app-table>
+  </mat-card>
+</section>
+
